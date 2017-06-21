@@ -1,0 +1,218 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<Profile sr="prof34" ve="2">
+		<cdate>1498047501103</cdate>
+		<edate>1498053164370</edate>
+		<id>34</id>
+		<mid0>35</mid0>
+		<nme>Any App Starts</nme>
+		<Event sr="con0" ve="2">
+			<code>1274152863</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>START: Calculator or Calendar. 
+
+The event will trigger when any of these apps start.</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<io.shortway.appcontext.tasker.bundle.extra.IGNORE_RECENTS>true</io.shortway.appcontext.tasker.bundle.extra.IGNORE_RECENTS>
+					<io.shortway.appcontext.tasker.bundle.extra.IGNORE_RECENTS-type>java.lang.Boolean</io.shortway.appcontext.tasker.bundle.extra.IGNORE_RECENTS-type>
+					<io.shortway.appcontext.tasker.bundle.extra.INT_VERSION_CODE>5</io.shortway.appcontext.tasker.bundle.extra.INT_VERSION_CODE>
+					<io.shortway.appcontext.tasker.bundle.extra.INT_VERSION_CODE-type>java.lang.Integer</io.shortway.appcontext.tasker.bundle.extra.INT_VERSION_CODE-type>
+					<io.shortway.appcontext.tasker.bundle.extra.LIST>&lt;StringArray sr=""&gt;&lt;_array_io.shortway.appcontext.tasker.bundle.extra.LIST0&gt;com.android.calculator2&lt;/_array_io.shortway.appcontext.tasker.bundle.extra.LIST0&gt;&lt;_array_io.shortway.appcontext.tasker.bundle.extra.LIST1&gt;com.android.calendar&lt;/_array_io.shortway.appcontext.tasker.bundle.extra.LIST1&gt;&lt;/StringArray&gt;</io.shortway.appcontext.tasker.bundle.extra.LIST>
+					<io.shortway.appcontext.tasker.bundle.extra.LIST-type>[Ljava.lang.String;</io.shortway.appcontext.tasker.bundle.extra.LIST-type>
+					<io.shortway.appcontext.tasker.bundle.extra.TRIGGER>START</io.shortway.appcontext.tasker.bundle.extra.TRIGGER>
+					<io.shortway.appcontext.tasker.bundle.extra.TRIGGER-type>java.lang.String</io.shortway.appcontext.tasker.bundle.extra.TRIGGER-type>
+					<io.shortway.appcontext.tasker.bundle.extra.TYPE>0</io.shortway.appcontext.tasker.bundle.extra.TYPE>
+					<io.shortway.appcontext.tasker.bundle.extra.TYPE-type>java.lang.Integer</io.shortway.appcontext.tasker.bundle.extra.TYPE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">io.shortway.appcontext</Str>
+			<Str sr="arg2" ve="3">io.shortway.appcontext.activities.EditActivity</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof36" ve="2">
+		<cdate>1498047501103</cdate>
+		<clp>true</clp>
+		<edate>1498053150076</edate>
+		<id>36</id>
+		<mid0>38</mid0>
+		<nme>Any App Stops</nme>
+		<Event sr="con0" ve="2">
+			<code>1274152863</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>STOP: Calculator or Calendar. 
+
+The event will trigger when any of these apps stop.</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<io.shortway.appcontext.tasker.bundle.extra.IGNORE_RECENTS>true</io.shortway.appcontext.tasker.bundle.extra.IGNORE_RECENTS>
+					<io.shortway.appcontext.tasker.bundle.extra.IGNORE_RECENTS-type>java.lang.Boolean</io.shortway.appcontext.tasker.bundle.extra.IGNORE_RECENTS-type>
+					<io.shortway.appcontext.tasker.bundle.extra.INT_VERSION_CODE>5</io.shortway.appcontext.tasker.bundle.extra.INT_VERSION_CODE>
+					<io.shortway.appcontext.tasker.bundle.extra.INT_VERSION_CODE-type>java.lang.Integer</io.shortway.appcontext.tasker.bundle.extra.INT_VERSION_CODE-type>
+					<io.shortway.appcontext.tasker.bundle.extra.LIST>&lt;StringArray sr=""&gt;&lt;_array_io.shortway.appcontext.tasker.bundle.extra.LIST0&gt;com.android.calculator2&lt;/_array_io.shortway.appcontext.tasker.bundle.extra.LIST0&gt;&lt;_array_io.shortway.appcontext.tasker.bundle.extra.LIST1&gt;com.android.calendar&lt;/_array_io.shortway.appcontext.tasker.bundle.extra.LIST1&gt;&lt;/StringArray&gt;</io.shortway.appcontext.tasker.bundle.extra.LIST>
+					<io.shortway.appcontext.tasker.bundle.extra.LIST-type>[Ljava.lang.String;</io.shortway.appcontext.tasker.bundle.extra.LIST-type>
+					<io.shortway.appcontext.tasker.bundle.extra.TRIGGER>STOP</io.shortway.appcontext.tasker.bundle.extra.TRIGGER>
+					<io.shortway.appcontext.tasker.bundle.extra.TRIGGER-type>java.lang.String</io.shortway.appcontext.tasker.bundle.extra.TRIGGER-type>
+					<io.shortway.appcontext.tasker.bundle.extra.TYPE>0</io.shortway.appcontext.tasker.bundle.extra.TYPE>
+					<io.shortway.appcontext.tasker.bundle.extra.TYPE-type>java.lang.Integer</io.shortway.appcontext.tasker.bundle.extra.TYPE-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%acapp
+Application Name
+The name of the stopped app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%acpackage
+Package Name
+The package name of the stopped app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">io.shortway.appcontext</Str>
+			<Str sr="arg2" ve="3">io.shortway.appcontext.activities.EditActivity</Str>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1498047400545</cdate>
+		<name>Track Apptime</name>
+		<pids>36,34</pids>
+		<tids>35,38</tids>
+	</Project>
+	<Task sr="task35">
+		<cdate>1498047510982</cdate>
+		<edate>1498051366816</edate>
+		<id>35</id>
+		<nme>Start Time</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>1. Generating the variable name.</label>
+			<Str sr="arg0" ve="3">%startSuffix</Str>
+			<Str sr="arg1" ve="3">__Start</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>2. Generating the variable name.</label>
+			<Str sr="arg0" ve="3">%startedpackagevarname</Str>
+			<Str sr="arg1" ve="3">%acpackage%startSuffix</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<label>3. Generating the variable name.</label>
+			<Str sr="arg0" ve="3">%startedpackagevarname</Str>
+			<Str sr="arg1" ve="3">\.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">_</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>Storing the start time.</label>
+			<Str sr="arg0" ve="3">%%startedpackagevarname</Str>
+			<Str sr="arg1" ve="3">%TIMEMS</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task38">
+		<cdate>1498047510982</cdate>
+		<edate>1498051674835</edate>
+		<id>38</id>
+		<nme>Stop Time</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>1. Generating the variable name.</label>
+			<Str sr="arg0" ve="3">%stopSuffix</Str>
+			<Str sr="arg1" ve="3">__Stop</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>2. Generating the variable name.</label>
+			<Str sr="arg0" ve="3">%stoppedpackagevarname</Str>
+			<Str sr="arg1" ve="3">%acpackage%stopSuffix</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<label>3. Generating the variable name.</label>
+			<Str sr="arg0" ve="3">%stoppedpackagevarname</Str>
+			<Str sr="arg1" ve="3">\.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">_</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>Storing the stop time.</label>
+			<Str sr="arg0" ve="3">%%stoppedpackagevarname</Str>
+			<Str sr="arg1" ve="3">%TIMEMS</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<label>1. Deriving the 'started' variable name.</label>
+			<Str sr="arg0" ve="3">%startedpackagevarname</Str>
+			<Str sr="arg1" ve="3">%stoppedpackagevarname</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>598</code>
+			<label>2. Deriving the 'started' variable name.</label>
+			<Str sr="arg0" ve="3">%startedpackagevarname</Str>
+			<Str sr="arg1" ve="3">%stopSuffix</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%startSuffix</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<label>Calculating usage duration in seconds.</label>
+			<Str sr="arg0" ve="3">%duration_s</Str>
+			<Str sr="arg1" ve="3">(%%stoppedpackagevarname - %%startedpackagevarname)/1000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<label>Rounding usage duration.</label>
+			<Str sr="arg0" ve="3">%duration_s_round</Str>
+			<Str sr="arg1" ve="3">round(%duration_s)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>548</code>
+			<label>Flashing the result.</label>
+			<Str sr="arg0" ve="3">%acpackage was used for %duration_s_round seconds.</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
