@@ -1,3 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
+
+#Ignoring this directory used by Jekyll on BashForWindows:
+/vendor/bundle
