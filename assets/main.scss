@@ -45,14 +45,13 @@ div.app-section {
 
       p {
         font-size: 16px;
-        color: white;
+        color: black;
         margin-bottom: 0px; // Override the default 15px bottom margin
       }
 
       // Hacky way to make the whole div clickable: https://stackoverflow.com/a/3494108/3248556 
       a {
         text-decoration: none;
-
         span {
           position:absolute; 
           width:100%;
