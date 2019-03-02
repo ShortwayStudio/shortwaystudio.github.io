@@ -96,6 +96,54 @@ div.app-section {
 
 }
 
+article.post {
+
+  div.post-banner {
+    border-radius: 15px;
+
+    img.post-banner {
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      margin-bottom: 15px;
+      -webkit-clip-path: inset(0% 0% 0% 0% round 15px);
+        clip-path: inset(0% 0% 0% 0% round 15px);
+    }
+  
+    div.embed-container {
+      margin-bottom: 15px;
+      
+      iframe {
+        -webkit-clip-path: inset(0% 0% 0% 0% round 15px);
+        clip-path: inset(0% 0% 0% 0% round 15px);
+      }
+    }
+  }
+
+  
+
+}
+
+div.post-lead {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.1em; /* 30px/16=1.875em */
+}
+
+div.app-download {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+  a {
+    margin-bottom: 10px;
+  }
+}
+
 
 
 

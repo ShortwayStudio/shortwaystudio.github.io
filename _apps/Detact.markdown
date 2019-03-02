@@ -2,24 +2,26 @@
 layout: app-page
 title:  "Detact"
 description: "Activity detection for Tasker!"
+backgroundColor: 3f51b5
+textColor: ffffff
+# icon: "res/apps/detact/icon.png"
+lead: >
+  Detact detects activities and enables you to act on them in Tasker!
+banner: "res/apps/detact/banner_512.jpg"
+google_play_id: io.shortway.detact
+xda_labs_id: io.shortway.detact
 
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Automatically start Spotify when driving? Keep your phone locked while on your bike? Count steps while you're walking? You got it! With Detact and Tasker, there are endless possibilities. How about measuring the time you spend sitting in a chair all day?
+  
+Detact uses technology already in your device, meaning it doesn't use any valuable battery power! (Specifically, Detact uses the Activity Recognition Transition API.)
+  
+Detact may also work with other apps using the Locale API, such as Locale, Llama, Automate, Automagic and others. However, this is not tested extensively.
+  
+To support development, Detact contains non-intrusive ads. These can be removed with a small in-app purchase.
+  
+Please understand that Detact is still considered to be in beta. There may be bugs.
+  
+##### CREDITS
+*  Crafty Apps EU/Pent/João Dias for developing Tasker
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

@@ -7,6 +7,33 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
+  <div class="post-banner" style="background-color:#{{ page.backgroundColor }};" >
+    {%- if page.youtube_id -%}
+      {% include youtube.html youtube_id=page.youtube_id %}
+    {%- else -%}
+      <img class="post-banner" src="{{ site.url }}/{{ page.banner }}" alt="{{ page.lead }}">
+    {%- endif -%}
+  </div>
+  
+
+  <div class="post-lead">
+    <p>
+        {{ page.lead }}
+    </p>
+  </div>
+
+  <div class="app-download">
+    {%- if page.google_play_id -%}
+      {% include google_play_badge.html google_play_id=page.google_play_id %}
+    {%- endif -%}
+    {%- if page.xda_labs_id -%}
+      <a href="https://labs.xda-developers.com/store/app/{{ page.xda_labs_id }}">XDA Labs</a>
+    {%- endif -%}
+    {%- if page.xposed_repo_id -%}
+      <a href="https://repo.xposed.info/module/{{ page.xposed_repo_id }}">Xposed Module Repository</a>
+    {%- endif -%}
+  </div>
+
   <div class="post-content">
     {{ content }}
   </div>

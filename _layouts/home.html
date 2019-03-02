@@ -31,11 +31,11 @@ layout: default
 
     <div class="app-list">
       {%- for app in site.apps -%}
-      <div class="card">
-        <h3>
+      <div class="card" style="background-image:url({{ site.url }}/{{ app.icon }}); background-color:#{{ app.backgroundColor }}; background-position: top right; background-repeat: no-repeat; background-size: auto 50%;">
+        <h3 style="color:#{{ app.textColor }}">
           {{ app.title | escape }}
         </h3>
-        <p>
+        <p style="color:#{{ app.textColor }}">
           {{ app.description | escape}}
         </p>
         <!-- Hacky way to make the whole div clickable: -->

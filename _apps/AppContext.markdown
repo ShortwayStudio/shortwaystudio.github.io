@@ -2,24 +2,33 @@
 layout: app-page
 title:  "AppContext"
 description: "Better application context for Tasker with Xposed!"
-
+backgroundColor: 03a9f4  # 03a8f5   10b4ee
+textColor: ffffff
+# icon: "res/apps/appcontext/icon.png"
+lead: >
+  Have Tasker react on running applications, without the downsides of the default implementation!
+youtube_id: dmhjFhWrjsM
+google_play_id: io.shortway.appcontext
+xda_labs_id: io.shortway.appcontext
+xposed_repo_id: io.shortway.appcontext
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+*[Requires Xposed and Tasker (or equivalent)]*
+  
+The default application context of Tasker has several downsides:
+*  it is inaccurate (in Android versions after KitKat)
+*  it needs an accessibility service, which prevents using screen lock to enhance data encryption
+*  it checks frequently which app is running
+Especially the last point is inconvenient, as frequent checks may drain battery and infrequent checks means Tasker is slow to react.
+  
+AppContext solves these problems by utilizing the power of Xposed! It hooks directly into the Activity-class, letting Tasker react immediately when an app starts. This means no more periodic checking which app is running, so no more battery drain and no more slow reactions. It's also perfectly accurate and doesn't need an accessibility service, so your device's screen lock can be used for enhanced data protection again.
+(Experimental support for reacting on Services is also present.)
+  
+AppContext may also work with other apps using the Locale API, such as Locale, Llama, Automate, Automagic and others. However, this is not tested extensively.
+  
+To support development, AppContext contains non-intrusive ads. These can be removed with a small in-app purchase.
+  
+Please understand that AppContext is still considered to be in beta. There may be bugs.
+  
+##### CREDITS
+*  Crafty Apps EU/Pent/João Dias for developing Tasker
+*  rovo89 for creating the Xposed Framework
