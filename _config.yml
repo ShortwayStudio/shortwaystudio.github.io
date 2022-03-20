@@ -30,6 +30,8 @@ collections:
   apps:
     permalink: "/:slug/" # the title in lowercase (example: 'appcontext')
     output: true
+  legal:
+    output: true
 
 # Build settings
 markdown: kramdown
